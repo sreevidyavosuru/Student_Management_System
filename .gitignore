@@ -1,0 +1,21 @@
+# Build output and coverage data
+/build/
+/*.gcda
+/*.gcno
+/src/*.gcda
+/src/*.gcno
+/tests/*.gcda
+/tests/*.gcno
+*.gcov
+
+# Runtime SQLite database and sidecar files
+/database/*.db
+/database/*.db-*
+/database/*.sqlite
+/database/*.sqlite-*
+
+# Editor and OS files
+*~
+*.swp
+*.swo
+.DS_Store
